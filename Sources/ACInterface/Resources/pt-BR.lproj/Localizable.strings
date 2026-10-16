@@ -1,0 +1,131 @@
+/* Modos e ventilação */
+"Cool" = "Frio";
+"Heat" = "Quente";
+"Dry" = "Desumidificar";
+"Fan" = "Ventilar";
+"Auto" = "Auto";
+"Quiet" = "Silêncio";
+"Low" = "Baixa";
+"Medium" = "Média";
+"High" = "Alta";
+"Turbo" = "Turbo";
+"%@ mode" = "Modo %@";
+"Fan speed %@" = "Ventilação %@";
+
+/* Teclas do controle */
+"Swing" = "Oscilar";
+"Sleep" = "Dormir";
+"IonAir" = "IonAir";
+"Display" = "Visor";
+"Clean" = "Limpeza";
+"Anti-mold" = "Anti-mofo";
+"Eco" = "Eco";
+"on" = "ligado";
+"off" = "desligado";
+
+/* Temperatura */
+"Turn off" = "Desligar";
+"Turn on" = "Ligar";
+"Lower temperature" = "Diminuir temperatura";
+"Raise temperature" = "Aumentar temperatura";
+"Target temperature" = "Temperatura desejada";
+"%@ degrees" = "%@ graus";
+"unknown" = "desconhecida";
+
+/* Ilustração e ícone */
+"Air conditioner off" = "Ar-condicionado desligado";
+"Air conditioner on" = "Ar-condicionado ligado";
+"Air conditioner offline" = "Ar-condicionado sem conexão";
+"Air conditioner on, %@, %@ degrees" = "Ar-condicionado ligado, %1$@, %2$@ graus";
+
+/* Conexão e status */
+"Simulation" = "Simulação";
+"Wi-Fi" = "Wi-Fi";
+"Connected" = "Conectado";
+"Connecting…" = "Conectando…";
+"Offline" = "Sem conexão";
+"Connecting to the device…" = "Conectando ao aparelho…";
+"Can’t reach the device. Check that it’s plugged in and on Wi-Fi." = "Sem conexão com o aparelho. Confira se ele está ligado na tomada e no Wi-Fi.";
+"Sending to the device…" = "Enviando para o aparelho…";
+"The device didn’t confirm the last command." = "O aparelho não confirmou o último comando.";
+"Couldn’t send the command." = "Não foi possível enviar o comando.";
+"This device doesn’t support that." = "Este aparelho não tem essa função.";
+"No updates from the device since %@." = "Sem notícias do aparelho desde %@.";
+"Off" = "Desligado";
+"In sync with the device" = "Sincronizado com o aparelho";
+"Try again" = "Tentar de novo";
+"OK" = "OK";
+
+/* Uso */
+"Room temperature" = "Temperatura ambiente";
+"Time on" = "Tempo ligado";
+"On since %@" = "Ligado desde %@";
+"On since at least %@" = "Ligado desde pelo menos %@";
+"Estimated energy" = "Consumo estimado";
+"Estimate: %@ W average while on" = "Estimativa: média de %@ W enquanto ligado";
+"< 1 min" = "< 1 min";
+
+/* Rodapé */
+"No reading from the device yet" = "Ainda sem leitura do aparelho";
+"Updated just now" = "Atualizado agora";
+"Updated %@" = "Atualizado %@";
+"Refresh now" = "Atualizar agora";
+"Language" = "Idioma";
+"Quit" = "Sair";
+"More options" = "Mais opções";
+"Open GitHub profile" = "Abrir perfil no GitHub";
+
+/* Assistente de configuração */
+"Set Up Air Conditioner…" = "Configurar ar-condicionado…";
+"User code" = "Código de usuário";
+"QR code" = "QR code";
+"This QR code expired." = "Este QR code expirou.";
+"New QR Code" = "Novo QR code";
+"Online" = "Online";
+"Done" = "Concluir";
+"Back" = "Voltar";
+"Check the user code and try again." = "Confira o código de usuário e tente de novo.";
+"Check the user code and try again. Smart Life said: %@" = "Confira o código de usuário e tente de novo. O Smart Life respondeu: %@";
+"Couldn’t reach Smart Life. Check your internet connection." = "Não foi possível falar com o Smart Life. Confira sua conexão com a internet.";
+"No air conditioner found in this Smart Life account. Make sure it’s added in Smart Life, then try again." = "Nenhum ar-condicionado nesta conta do Smart Life. Confira se ele está adicionado no Smart Life e tente de novo.";
+"Couldn’t save to the Keychain." = "Não foi possível salvar nas Chaves (Keychain).";
+
+/* Assistente (versão simplificada) */
+"It takes about two minutes. Keep your phone nearby." = "Leva uns dois minutos. Deixe o celular por perto.";
+"Your air conditioner already works in the Smart Life app" = "Seu ar-condicionado já funciona no app Smart Life";
+"Don’t have Smart Life? Get it" = "Não tem o Smart Life? Baixe aqui";
+"This Mac is on the same Wi-Fi as the air conditioner" = "Este Mac está no mesmo Wi-Fi do ar-condicionado";
+"Start" = "Começar";
+"Get your code from Smart Life" = "Pegue seu código no Smart Life";
+"On your phone, open Smart Life and follow the pictures:" = "No celular, abra o Smart Life e siga as figuras:";
+"Tap Me" = "Toque em Eu";
+"Tap the gear" = "Toque na engrenagem";
+"Account and Security, then User Code" = "Conta e Segurança, depois Código de usuário";
+"Account and Security" = "Conta e Segurança";
+"User Code" = "Código de usuário";
+"Type or paste the code here:" = "Digite ou cole o código aqui:";
+"Paste" = "Colar";
+"Continue" = "Continuar";
+"Scan this code with Smart Life" = "Escaneie este código com o Smart Life";
+"On the Me tab, tap the scan icon" = "Na aba Eu, toque no ícone de escanear";
+"Then tap Confirm on your phone. This screen moves on by itself." = "Depois toque em Confirmar no celular. Esta tela avança sozinha.";
+"Which air conditioner?" = "Qual ar-condicionado?";
+"Connect" = "Conectar";
+"All set!" = "Tudo pronto!";
+"Chillbar is connected to “%@”." = "O Chillbar está conectado ao “%@”.";
+"Click this icon in your menu bar to control it." = "Clique neste ícone na barra de menus para controlá-lo.";
+
+/* Regras por modo */
+"Fan speed" = "Ventilação";
+"Locked in %@ mode" = "Travado no modo %@";
+"Not available in this mode." = "Indisponível neste modo.";
+
+/* Onboarding: mascote e créditos */
+"Hi!" = "Oi!";
+"Hi, %@!" = "Oi, %@!";
+"I’m Chill. I put your air conditioner right in your Mac’s menu bar." = "Eu sou o Chill. Coloco seu ar-condicionado direto na barra de menus do Mac.";
+"Chill, the Chillbar mascot" = "Chill, o mascote do Chillbar";
+"Tip: with an iPhone on the same Apple ID, copy the code there and click Paste here." = "Dica: com um iPhone no mesmo ID Apple, copie o código lá e clique em Colar aqui.";
+"I’ll notice as soon as you confirm on your phone." = "Eu percebo assim que você confirmar no celular.";
+"Made by %@" = "Feito por %@";
+"Open %@" = "Abrir %@";

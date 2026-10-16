@@ -1,0 +1,14 @@
+.DS_Store
+.build/
+.swiftpm/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+
+# Segredos de dispositivos Tuya nunca entram no repositório
+tinytuya.json
+devices.json
+tuya-raw.json
+snapshot.json
+*.log
+build/

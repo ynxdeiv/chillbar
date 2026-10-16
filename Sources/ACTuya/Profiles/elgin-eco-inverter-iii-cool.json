@@ -1,0 +1,88 @@
+{
+  "id": "elgin-eco-inverter-iii-cool",
+  "name": "Elgin Eco Inverter III Wi-Fi (só frio)",
+  "category": "kt",
+  "productIDs": [
+    "gncaqbnuk4cj2etp"
+  ],
+  "protocolVersion": "3.3",
+  "notes": "Validado em 45HJFI12C2WF (módulo TYAUX-J2): leitura de todos os DPs e comando de setpoint. Regras por modo e teclas conforme o manual de operação HW Eco Inverter III (HJ): Auto fixa 25 °C e ventilação automática; Desumidificar com ventilação automática; Ventilar sem temperatura; Turbo só no Frio; Dormir em Frio e Desumidificar; o controle não tem tecla Silêncio. Velocidades além de auto, oscilação, limpeza e anti-mofo seguem o mapa AUX do tuya-local e ainda não foram testadas.",
+  "power": {
+    "dp": "1"
+  },
+  "setpoint": {
+    "dp": "2",
+    "unitsPerDegree": 10,
+    "min": 16,
+    "max": 30,
+    "step": 1
+  },
+  "roomTemperature": {
+    "dp": "3",
+    "unitsPerDegree": 10
+  },
+  "mode": {
+    "dp": "4",
+    "values": {
+      "cool": "cold",
+      "dry": "wet",
+      "fanOnly": "wind",
+      "auto": "auto"
+    }
+  },
+  "fanSpeed": {
+    "dp": "5",
+    "values": {
+      "auto": "auto",
+      "low": "low",
+      "medium": "mid",
+      "high": "high",
+      "turbo": "strength"
+    }
+  },
+  "verticalSwing": {
+    "dp": "105"
+  },
+  "features": {
+    "display": "13",
+    "sleep": "102",
+    "clean": "103",
+    "antiMould": "104",
+    "ionizer": "106"
+  },
+  "energy": {
+    "annualKWh": 406,
+    "annualHours": 2080,
+    "source": "Etiqueta INMETRO do 45HJFI12C2WF (406 kWh/ano); 2.080 h/ano é a base de uso da etiqueta (Portaria Inmetro 269/2021)."
+  },
+  "modeRules": {
+    "auto": {
+      "allowsSetpoint": false,
+      "fanSpeeds": [],
+      "features": [
+        "display",
+        "ionizer",
+        "clean",
+        "antiMould"
+      ]
+    },
+    "dry": {
+      "fanSpeeds": []
+    },
+    "fanOnly": {
+      "allowsSetpoint": false,
+      "fanSpeeds": [
+        "auto",
+        "low",
+        "medium",
+        "high"
+      ],
+      "features": [
+        "display",
+        "ionizer",
+        "clean",
+        "antiMould"
+      ]
+    }
+  }
+}
